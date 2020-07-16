@@ -27,7 +27,7 @@
 }
 
 .customer-desc{
-  background-color:darkgray;
+  background-color:#737373;
   color:white;
 }
 
@@ -37,6 +37,13 @@
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
+}
+
+.cfield{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: .5rem;
 }
 
 .App-logo {

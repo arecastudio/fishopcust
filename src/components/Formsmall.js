@@ -10,11 +10,11 @@ const Formsmall=()=>{
             </div>
             <div className="customer-part">
                 <div className="cust-box">
-                    <div>
+                    <div className="cfield">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name"/>
                     </div>
-                    <div>
+                    <div className="cfield">
                         <label for="address">Address</label>
                         <input type="text" id="address" name="address"/>
                     </div>
