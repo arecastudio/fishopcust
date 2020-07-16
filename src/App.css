@@ -1,5 +1,27 @@
 .App {
-  text-align: center;
+}
+
+
+.form-customer{
+  margin:0 auto;
+  width:600px;
+  border:1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: #f7f7f7 5px 5px 5px;
+}
+
+.customer-part{
+  width:400px;
+  display:inline-block;
+  margin:5px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
 
 .App-logo {
