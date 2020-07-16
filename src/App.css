@@ -8,7 +8,7 @@
   height: 500px;
   border:1px solid lightgray;
   border-radius: 5px;
-  box-shadow: #f7f7f7 5px 5px 5px;
+  box-shadow: lightgrey 10px 10px 10px;
   display: flex;
   flex-direction: row;
 }
@@ -27,7 +27,8 @@
 }
 
 .customer-desc{
-  background-color:#36CFCF;
+  background-color:darkgray;
+  color:white;
 }
 
 .centered {
