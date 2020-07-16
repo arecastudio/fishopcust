@@ -5,15 +5,29 @@
 .form-customer{
   margin:0 auto;
   width:600px;
+  height: 500px;
   border:1px solid lightgray;
   border-radius: 5px;
   box-shadow: #f7f7f7 5px 5px 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.desc-box{
+  padding:20px;
+}
+
+.cust-box{
+  padding:20px;
 }
 
 .customer-part{
   width:400px;
-  display:inline-block;
-  margin:5px;
+  flex:1;
+}
+
+.customer-desc{
+  background-color:#36CFCF;
 }
 
 .centered {
