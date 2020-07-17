@@ -1,12 +1,18 @@
 import React from 'react';
+import logo from './images/register-icon.jpg';
 
 const Formsmall=()=>{
     return(
         <div className="form-customer centered">
             <div className="customer-part customer-desc">
-                <p className="desc-box">
-                No, you can't use the local storage of one domain to other domain. Local Storage is domain based. You can’t read or write from localstorage that’s on different domain even on it's subdomain. you can use it via Iframe on your subdomain. Please go through this link for detailed explanation.
-                </p>
+                <div className="desc-box">
+                    <div style={{flex:1,}}>
+                        By enter your name and address you will save time in checkout process. Lets register first, it's easy !
+                    </div>
+                    <div style={{flex:1,}}>
+                        <img src={logo} alt="..." className="image-reg" />
+                    </div>
+                </div>
             </div>
             <div className="customer-part">
                 
@@ -19,11 +25,8 @@ const Formsmall=()=>{
             </div>
             <div class="form-group">
                 <label for="faddr">Address</label>
-                <input type="text" class="form-control" id="faddr" />
-            </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <input type="text" class="form-control" id="faddr" aria-describedby="addressHelp" />
+                <small id="addressHelp" class="form-text text-muted">Enter address here.</small>
             </div>
             <button type="submit" class="btn btn-sm btn-secondary">Save</button>
             </form>
