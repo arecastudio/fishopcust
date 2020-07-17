@@ -24,7 +24,7 @@
 }
 
 .cust-box{
-  padding:20px;
+  padding:50px;
 }
 
 .customer-part{
@@ -35,6 +35,8 @@
 .customer-desc{
   background-color:#737373;
   color:white;
+  margin:2px 0px 2px 2px;
+  border-radius: 3px;
 }
 
 .centered {
