@@ -25,7 +25,7 @@ const Formsmall=()=>{
             </div>
             <div class="form-group">
                 <label for="faddr">Address</label>
-                <input type="text" class="form-control" id="faddr" aria-describedby="addressHelp" />
+                <textarea class="form-control" id="faddr" aria-describedby="addressHelp" rows="4"></textarea>
                 <small id="addressHelp" class="form-text text-muted">Enter address here.</small>
             </div>
             <button type="submit" class="btn btn-sm btn-secondary">Register</button>
